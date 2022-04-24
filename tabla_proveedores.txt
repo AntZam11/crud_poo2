@@ -1,0 +1,8 @@
+CREATE TABLE `proveedores` (
+  `idproveedores` int NOT NULL AUTO_INCREMENT,
+  `proveedor` varchar(60) DEFAULT NULL,
+  `nit` varchar(12) DEFAULT NULL,
+  `direccion` varchar(80) DEFAULT NULL,
+  `telefono` varchar(25) DEFAULT NULL,
+  PRIMARY KEY (`idproveedores`)
+) ENGINE=InnoDB AUTO_INCREMENT=2006318379 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
